@@ -1,0 +1,139 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Top Bar */
+  .top-bar {
+    background-color: #005680;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.9em;
+  }
+  
+  /* Header */
+  .header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .contact-info {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .google-play img {
+    height: 40px;
+  }
+  
+  .login-register {
+    margin-left: 20px;
+  }
+  
+  .login-register a {
+    color: #005680;
+    font-weight: bold;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #005680;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('steel-factory.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .hero-buttons button {
+    background-color: #005680;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .hero-buttons button:hover {
+    background-color: #004060;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

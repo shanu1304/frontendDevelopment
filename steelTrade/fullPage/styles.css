@@ -1,0 +1,190 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    color: #005680;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  /* Header */
+  .top-bar {
+    background-color: #005680;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .navbar ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    font-weight: bold;
+    color: #005680;
+  }
+  
+  .contact-info {
+    text-align: right;
+  }
+  
+  .contact-info p {
+    margin-bottom: 5px;
+  }
+  
+  .btn {
+    background-color: #005680;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .app-image {
+    max-width: 300px;
+    margin-top: 30px;
+  }
+  
+  /* About Section */
+  .about {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .about .content {
+    max-width: 50%;
+  }
+  
+  .about img {
+    max-width: 400px;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .service-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .service-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Achievements Section */
+  .achievements {
+    padding: 50px 20px;
+    background-color: white;
+  }
+  
+  .achievement-grid {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .achievement-item {
+    text-align: center;
+  }
+  
+  /* Pricing Section */
+  .pricing {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .pricing-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .pricing-plan {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #005680;
+    color: white;
+    padding: 50px 20px;
+  }
+  
+  .footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
